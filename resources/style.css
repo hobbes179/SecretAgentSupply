@@ -94,6 +94,14 @@ nav li a {
   text-decoration: none;
 }
 
+.small-nav {
+  display: none;
+}
+
+.small-nav ul {
+  justify-content: space-around;
+}
+
 /* Product Styles */
 .products {
   justify-content: space-between;
@@ -138,4 +146,79 @@ nav li a {
 
 .contact-box .black-box {
   padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .big-nav {
+    display: none;
+  }
+
+  .small-nav {
+    display: block;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  .banner {
+    height: 15rem;
+  }
+
+  .headline {
+    margin-top: 10rem;
+  }
+
+  .headline .black-box {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .headline p {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-box {
+    width: 90%;
+    text-align: center;
+  }
+
+  footer .container{
+    justify-content: center;
+  }
+
 }
