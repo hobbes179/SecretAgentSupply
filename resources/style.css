@@ -1,0 +1,141 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+}
+
+/* Header & Footer Styles */
+header, footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.logo {
+  height: 1.5rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
+}
+
+header .container {
+  align-items: center;
+}
+
+header span {
+  margin: .66rem 1rem;
+}
+
+footer .container {
+  height: 5rem;
+  align-items: center;
+  text-align: left;
+}
+
+/* Banner Styles */
+.banner {
+  width: 100%;
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.headline {
+  margin-top: 9rem;
+  align-items: center;
+  justify-content: left;
+}
+
+.headline .black-box {
+  width: 20rem;
+  padding: 2rem 3rem;
+  justify-content: flex-start;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: .25rem;
+}
+
+/* Nav Styles */
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+  margin: .75rem 0;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Product Styles */
+.products {
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.item {
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.item img {
+  max-height: 9rem;
+  max-width: 8rem;
+  padding: 2rem 0;
+}
+
+.pic {
+  width: 100%;
+  height: 13rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .black-box {
+  width: 100%;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.info {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contact-box {
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.contact-box .black-box {
+  padding: 1rem 2rem;
+}
